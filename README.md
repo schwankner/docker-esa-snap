@@ -9,3 +9,9 @@ ESA is developing free open source toolboxes for the scientific exploitation of 
 Contains: SNAP, S1TBX, S2TBX, S3TBX, SMOS Box, PROBA-V Toolbox.
 
 Get it from https://hub.docker.com/r/mrmoor/esa-snap/
+
+
+Or get it via docker from the cmd:
+
+    docker pull mrmoor/esa-snap
+  
