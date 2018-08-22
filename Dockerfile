@@ -19,5 +19,5 @@ RUN ./esa-snap_sentinel_unix_6_0.sh -q
 # link gpt so it can be used systemwide
 RUN ln -s /usr/local/snap/bin/gpt /usr/bin/gpt
 
-# set gpt max memory to 4GB
-RUN sed -i -e 's/-Xmx1G/-Xmx4G/g' /usr/local/snap/bin/gpt.vmoptions
+# set gpt max memory to 32GB
+RUN sed -i -e 's/-Xmx1G/-Xmx32G/g' /usr/local/snap/bin/gpt.vmoptions
