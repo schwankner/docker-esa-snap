@@ -15,3 +15,10 @@ Or get it via docker from the cmd:
 
     docker pull mrmoor/esa-snap
   
+  
+##Python integration
+There is also a Docker-Container available with Python and SNAP integration with snappy based on this repo.
+Have a look at https://github.com/schwankner/esa-snap-with-python
+Or pull from docker:
+    
+    docker pull mrmoor/esa-snap-with-python
