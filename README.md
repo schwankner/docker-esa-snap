@@ -24,7 +24,7 @@ Build your graph with the desktop version of SNAP and process your graph with th
 
 Or just use gpt on the commandline:
 
-   gpt <op>|<graph-file> [options] [<source-file-1> <source-file-2> ...]
+    gpt <op>|<graph-file> [options] [<source-file-1> <source-file-2> ...]
 
 Full documentation is available at http://step.esa.int/docs/tutorials/SNAP_CommandLine_Tutorial.pdf
 
