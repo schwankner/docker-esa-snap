@@ -13,9 +13,22 @@ Get it from https://hub.docker.com/r/mrmoor/esa-snap/
 
 Or get it via docker from the cmd:
 
-    docker pull mrmoor/esa-snap
+    docker pull mrmoor/esa-snap:latest
+
+There are version 6.0 and 7.0 available. 7.0 is the latest and is via tag latest or 7.0 reachable.
   
-  
+Use this image for comandline or automated SNAP usage.
+Build your graph with the desktop version of SNAP and process your graph with the Graph Processing Tool:
+
+    gpt test.xml
+
+Or just use gpt on the commandline:
+
+   gpt <op>|<graph-file> [options] [<source-file-1> <source-file-2> ...]
+
+Full documentation is available at http://step.esa.int/docs/tutorials/SNAP_CommandLine_Tutorial.pdf
+
+
 ## Python integration
 
 There is also a Docker-Container available with Python and SNAP integration with snappy based on this repo.
